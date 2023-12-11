@@ -361,6 +361,8 @@
 		  "foreground": "#106f9e"
 		}
 	  },
+     
+
 	  {
 		"name": "js/ts Keyword",
 		"scope": [
@@ -684,6 +686,14 @@
 		  "foreground": "#fdafaf"
 		}
 	  },
+      {
+		"name": "Keyword Control",
+		"scope": "keyword.control.default.js.jsx,keyword.control.export.js.jsx,keyword.control.import.js.jsx,keyword.control.from.js.jsx, keyword.control.default.js,keyword.control.export.js,keyword.control.import.js,keyword.control.from.js",
+		"settings": {
+		  "foreground": "#647c96"
+		}
+	  },
+     
 	  {
 		"name": "Control Elements",
 		"scope": "control.elements, keyword.operator.less",
@@ -726,6 +736,7 @@
 		  "foreground": "#8a8ead"
 		}
 	  },
+      
 	  {
 		"name": "Support",
 		"scope": "support.function",
@@ -765,7 +776,7 @@
 		"name": "Meta tag",
 		"scope": "punctuation.definition.tag.begin.js.jsx, punctuation.definition.tag.begin.js,punctuation.definition.tag.end.js,punctuation.definition.tag.end.js.jsx,punctuation.definition.tag.begin.html,punctuation.definition.tag.end.html",
 		"settings": {
-		  "foreground": "#dadcda"
+		  "foreground": "#d6bb769d" /* dadcda */
 		}
 	  },
 	  {
@@ -814,21 +825,21 @@
 		"name": "Tags",
 		"scope": "entity.name.tag",
 		"settings": {
-		  "foreground": "#efefef"
+		  "foreground": "#d6bb76"
 		}
 	  },
 	  {
 		"name": "Attributes",
 		"scope": "entity.other.attribute-name",
 		"settings": {
-		  "foreground": "#009faa",
+		  "foreground": "#d6bb769d", 
 		}
 	  },
 	  {
 		"name": "text",
 		"scope": "meta.jsx.children.js.jsx,meta.jsx.children.js",
 		"settings": {
-		  "foreground": "#457b40",
+		  "foreground": "#008ea4",
 		}
 	  },
 	  {
@@ -1564,7 +1575,7 @@
 		  "constant.character.entity"
 		],
 		"settings": {
-		  "foreground": "#78c9ae"
+		  "foreground": "#008ea4"
 		}
 	  },
 	  {
