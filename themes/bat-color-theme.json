@@ -776,7 +776,7 @@
 		"name": "Meta tag",
 		"scope": "punctuation.definition.tag.begin.js.jsx, punctuation.definition.tag.begin.js,punctuation.definition.tag.end.js,punctuation.definition.tag.end.js.jsx,punctuation.definition.tag.begin.html,punctuation.definition.tag.end.html",
 		"settings": {
-		  "foreground": "#d676919d" /* dadcda */
+		  "foreground": "#a0dbc79d" /* dadcda */
 		}
 	  },
 	  {
@@ -825,7 +825,7 @@
 		"name": "Tags",
 		"scope": "entity.name.tag",
 		"settings": {
-		  "foreground": "#d67691",
+		  "foreground": "#a0dbc7",
 		}
 	  },
       {
@@ -846,7 +846,7 @@
 		"name": "Attributes",
 		"scope": "entity.other.attribute-name",
 		"settings": {
-		  "foreground": "#d676919d", 
+		  "foreground": "#a0dbc79d", 
 		}
 	  },
 	  {
