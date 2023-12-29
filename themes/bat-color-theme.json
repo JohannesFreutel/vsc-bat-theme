@@ -681,14 +681,14 @@
 	  },
 	  {
 		"name": "Keyword Control",
-		"scope": "keyword.control",
+		"scope": "keyword.control.flow.tsx",
 		"settings": {
-		  "foreground":"#fdafaf"//"#fdafaf"
+		  "foreground":"#d6bb76"//"#fdafaf"
 		}
 	  },
       {
 		"name": "Keyword Control",
-		"scope": "keyword.control.default.js.jsx,keyword.control.export.js.jsx,keyword.control.import.js.jsx,keyword.control.from.js.jsx, keyword.control.default.js,keyword.control.export.js,keyword.control.import.js,keyword.control.from.js",
+		"scope": "keyword.control.default.tsx,keyword.control.export.tsx,keyword.control.default.js.jsx,keyword.control.export.js.jsx,keyword.control.import.js.jsx,keyword.control.from.js.jsx, keyword.control.default.js,keyword.control.export.js,keyword.control.import.js,keyword.control.from.js",
 		"settings": {
 		  "foreground": "#647c96"
 		}
@@ -774,9 +774,9 @@
 	  },
 	  {
 		"name": "Meta tag",
-		"scope": "punctuation.definition.tag.begin.js.jsx, punctuation.definition.tag.begin.js,punctuation.definition.tag.end.js,punctuation.definition.tag.end.js.jsx,punctuation.definition.tag.begin.html,punctuation.definition.tag.end.html",
+		"scope": "punctuation.definition.tag.begin.js.jsx,punctuation.definition.tag.begin.tsx,punctuation.definition.tag.end.tsx, punctuation.definition.tag.begin.js,punctuation.definition.tag.end.js,punctuation.definition.tag.end.js.jsx,punctuation.definition.tag.begin.html,punctuation.definition.tag.end.html",
 		"settings": {
-		  "foreground": "#9da5ab9d" /* dadcda */
+		  "foreground": "#7da98c" /* dadcda */
 		}
 	  },
 	  {
@@ -825,7 +825,7 @@
 		"name": "Tags",
 		"scope": "entity.name.tag",
 		"settings": {
-		  "foreground": "#9e8e7e",
+		  "foreground": "#7da98c",
 		}
 	  },
       {
@@ -846,7 +846,7 @@
 		"name": "Attributes",
 		"scope": "entity.other.attribute-name",
 		"settings": {
-		  "foreground": "#cdc8c4", 
+		  "foreground": "#7da98c", 
 		}
 	  },
 	  {
