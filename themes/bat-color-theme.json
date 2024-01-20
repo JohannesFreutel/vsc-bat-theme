@@ -187,7 +187,7 @@
 		"name": "js/ts import keyword",
 		"scope": "keyword.operator.expression.import",
 		"settings": {
-		  "foreground": "#8e78a2"
+		  "foreground": "#c18b6e"
 		}
 	  },
 	  {
@@ -797,7 +797,7 @@
 		"name": "Meta tag",
 		"scope": "meta.jsx.children",
 		"settings": {
-		  "foreground": "#00238b"
+		  "foreground": "#312213"
 		}
 	  },
       {
@@ -860,7 +860,7 @@
 		"name": "Tags",
 		"scope": "entity.name.tag",
 		"settings": {
-		  "foreground": "#6a513b",
+		  "foreground": "#845c42",
 		}
 	  },
       {
@@ -881,16 +881,10 @@
 		"name": "Attributes",
 		"scope": "entity.other.attribute-name",
 		"settings": {
-		  "foreground": "#6a513b", 
+		  "foreground": "#c4a081af", 
 		}
 	  },
-	  {
-		"name": "text",
-		"scope": "meta.jsx.children.js.jsx,meta.jsx.children.js",
-		"settings": {
-		  "foreground": "#008ea4",
-		}
-	  },
+	  
 	  {
 		"name": "text",
 		"scope": "meta.brace.round.js.jsx, meta.brace.round.js",
@@ -1412,7 +1406,7 @@
 		"name": "ts primitive/builtin types",
 		"scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
 		"settings": {
-		  "foreground": "#55a06a"
+		  "foreground": "#72a564"
 		}
 	  },
 	  {
@@ -1941,7 +1935,7 @@
 		"scope": "comment, punctuation.definition.comment",
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#00217c"
+		  "foreground": "#2f2415"
 		}
 	  },
 	  {
